@@ -33,6 +33,11 @@ const Dashboard = () => {
           <p className="text-muted-foreground">
             Seu assistente inteligente para educação financeira está pronto para ajudar.
           </p>
+          <div className="flex gap-4 justify-center pt-4">
+              <Button size="lg" onClick={() => navigate("/chat")}>
+                Começar Agora
+              </Button>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
