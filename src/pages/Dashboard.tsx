@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
 import { ArrowUpRight, ArrowDownRight, Target, Bell } from "lucide-react";
 import heroImage from "@/assets/hero-finance.jpg";
